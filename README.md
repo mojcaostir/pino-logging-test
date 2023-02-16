@@ -6,3 +6,7 @@ Before running the test we compile an example app.
 In the test we spawn a new child process for example app to be executed.
 Example app produces logs as stdout stream. 
 We are listening for new `data` events and test if the logs meet our requirements in the test.
+
+## Usage
+Install dependencies: `npm i`.
+Run the test: `npm run test`.
